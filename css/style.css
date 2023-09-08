@@ -49,7 +49,7 @@ main {
     display: flex;
     align-items: center;
 }
-
+/* 
 .container {
     padding: 20px;
 }
@@ -59,4 +59,23 @@ main {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
+} */
+
+.page-header .col {
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.grow1 {
+    flex-grow: 1;
 }
